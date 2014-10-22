@@ -16,26 +16,19 @@ This docker file helps users who run personal servers to install and setup Xpres
 You can use shell scripts to build and run the docker image.
 Please modify the scripts to change the port configurations. The default port is 8080.
 
-### 도커 이미지 생성 (Create a docker image)
-
+- 도커 이미지 생성 (Create a docker image)
 ```
 sudo ./build.sh
 ```
-
-### 도커 이미지 실행 (Run the docker image)
-
+- 도커 이미지 실행 (Run the docker image)
 ```
 sudo ./run.sh
 ```
-
-### 도커 이미지 쉘 실행 (Run the docker image)
-
+- 도커 이미지 쉘 실행 (Run the docker image)
 ```
 sudo ./shell.sh
 ```
-
-### 도커 컨테이너에 SSH로 접속 (Connect to the running docker container via SSH)
-
+- 도커 컨테이너에 SSH로 접속 (Connect to the running docker container via SSH)
 ```
 # pass = root
 ssh -l root -p 2202 localhost
