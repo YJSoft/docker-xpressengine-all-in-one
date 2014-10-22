@@ -1,0 +1,3 @@
+CREATE DATABASE xe;
+CREATE USER 'xe'@'localhost' IDENTIFIED BY 'xe';
+GRANT ALL PRIVILEGES ON xe.* TO 'xe'@'localhost' WITH GRANT OPTION;
